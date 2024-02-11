@@ -217,7 +217,6 @@ class MusicPlayerWidget(QWidget):
                 self.__title_label.setText(title)
             else:
                 self.__title_label.setText(name)
-            self.__title_label.setText(name)
 
     def cleanTitle(self):
         if self.__title_label:
